@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Microchip MCP3301-CI/P
+#
+DEF MCP3301-CI_P U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "MCP3301-CI/P" 0 300 50 H V L CNN 
+F2 "Microchip-MCP3301-CI_P-*" 0 400 50 H I L CNN 
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21700E.pdf" 0 500 50 H I L CNN 
+F4 "MS-001" 0 600 50 H I L CNN "Code  JEDEC"
+F5 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F6 "http://www.microchip.com/" 0 800 50 H I L CNN "Component Link 1 URL"
+F7 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "revE, Nov-2011" 0 1100 50 H I L CNN "Datasheet Version"
+F10 "8-Lead Plastic Dual In-Line (P) - 300 mil Body [PDIP]" 0 1200 50 H I L CNN "Package Description"
+F11 "revBB, Aug-2009" 0 1300 50 H I L CNN "Package Version"
+F12 "IC" 0 1400 50 H I L CNN "category"
+F13 "1036705" 0 1500 50 H I L CNN "ciiva ids"
+F14 "dafd515173e52298" 0 1600 50 H I L CNN "library id"
+F15 "Microchip" 0 1700 50 H I L CNN "manufacturer"
+F16 "PDIP300-P8" 0 1800 50 H I L CNN "package"
+F17 "1331947825" 0 1900 50 H I L CNN "release date"
+F18 "4DCABCBE-D290-4055-86AA-22F3669C3B44" 0 2000 50 H I L CNN "vault revision"
+F19 "yes" 0 2100 50 H I L CNN "imported"
+DRAW
+X VREF 1 100 -600 100 R 40 40 1 1 I 
+X IN+ 2 100 0 100 R 40 40 1 1 I 
+X IN- 3 100 -100 100 R 40 40 1 1 I 
+X VSS 4 1100 -800 100 L 40 40 1 1 W 
+X ~CS~/SHDN 5 100 -300 100 R 40 40 1 1 I 
+X DOUT 6 1100 0 100 L 40 40 1 1 U 
+X CLK 7 100 -400 100 R 40 40 1 1 I C
+X VDD 8 100 -800 100 R 40 40 1 1 W 
+S 200 100 1000 -900 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

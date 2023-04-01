@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP3301-CI/P
+D MCP3301-CI/P
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21700E.pdf
+$ENDCMP
+# end doc library
