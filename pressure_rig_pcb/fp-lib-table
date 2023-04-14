@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "DAC82001")(type "KiCad")(uri "/home/isaiahrivera/Work/Bird_Lab/pressure_rig_pcb/kicad_elements/DAC82001.pretty")(options "")(descr ""))
-  (lib (name "DAC")(type "KiCad")(uri "${KIPRJMOD}/DAC.pretty")(options "")(descr ""))
-)
